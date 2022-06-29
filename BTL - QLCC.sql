@@ -436,7 +436,6 @@ select * from thutiendichvu
 
 UPDATE THUTIENDICHVU SET sothang = '2' where maho = 'H0208' AND madv = 'dv2';
 UPDATE THUTIENDICHVU SET sothang = '3' where maho = 'H0101' AND madv = 'dv1';
-UPDATE THUTIENDICHVU SET dongiadv = '2' where maho = 'H0208' AND madv = 'dv2';
 
 ---------- E2. Cập nhật thành tiền dịch vụ khi 1 hộ đăng ký thêm dịch vụ ----------
 alter proc sp_dangkydv @maho char(10), @madv char(10), @sothang int, @thanhtien float, @tinhtrangthu bit
